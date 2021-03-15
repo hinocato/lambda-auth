@@ -2,7 +2,7 @@
 
 const jwksClient = require('jwks-rsa');
 const jwt = require('jsonwebtoken');
-const util = require('uril');
+const util = require('util');
 
 /* Token の取り出し */
 function getToken(params) {
