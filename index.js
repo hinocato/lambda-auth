@@ -10,7 +10,7 @@ function getToken(params) {
         throw new Error('Expected "event.type" parameter to have value "TOKEN"');
     }
 
-    const tokenString = params.authorizataionToken;
+    const tokenString = params.authorizationToken;
     if (!tokenString) {
         throw new Error('Expected "event.authorizationToken" parameter to be set');
     }
